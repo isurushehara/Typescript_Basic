@@ -20,3 +20,15 @@ let Shehara: Person = {
     age: 24
 };
 
+// Interface
+interface Phone {
+    brand: string
+    price: number
+}
+
+let SAMSUNG: Phone = {
+    brand: "SAMSUNG",
+    price: 130000
+}
+
+

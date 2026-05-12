@@ -26,9 +26,7 @@ function narrow(val: string | number) {
     } else {
         return val
     }
-
 }
-
 
 // Narrowing with Discrimination Union
 type Circle = {
@@ -53,5 +51,4 @@ function setShape(val: Shape) {
     } else {
         return val;
     }
-
 }

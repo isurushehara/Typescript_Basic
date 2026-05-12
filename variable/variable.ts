@@ -75,3 +75,13 @@ let direction: "North" | "West" | "East" | "South";
 direction = "North";
 // direction = "Isuru"; <== Type '"Isuru"' is not assignable to type '"North" | "West" | "East" | "South"'.
 
+
+// Intersection Types
+type Point2D = {
+    x: number
+    y: number
+}
+
+type Point3D = Point2D & {
+    z: number
+}
