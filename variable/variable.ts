@@ -85,3 +85,16 @@ type Point2D = {
 type Point3D = Point2D & {
     z: number
 }
+
+// Genarics
+type CustomType<T> = T;
+let customType: CustomType<string> = "Custom Type";
+
+type CustomObject<T> = {
+    name: string;
+    custom: any;
+}
+let customObject: CustomObject<number> = {
+    name: "Custom",
+    custom: 1
+}
